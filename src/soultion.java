@@ -13,17 +13,17 @@ class problem1 {
         int i,j ;
         i = 0;
         j = numbers.length-1;
-        while(i <  j){
+        while(i <  j) {
             int sum = numbers[i] + numbers[j];
-            if(sum == target){
-                return new int[]{i+1,j+1};
+            if (sum == target) {
+                return new int[]{i + 1, j + 1};
             }
-            if(sum < target){
+            if (sum < target) {
                 i++;
-            }
-            else {
+            } else {
                 j--;
             }
+
         }
         return null;
     }
