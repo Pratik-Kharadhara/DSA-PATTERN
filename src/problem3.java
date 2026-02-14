@@ -1,3 +1,4 @@
+//977. Squares of a Sorted Array
 //Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
 //the main challenge was  to do it in 0(n) time complexity
 //where it takes  nlogn if we do normal sorting
