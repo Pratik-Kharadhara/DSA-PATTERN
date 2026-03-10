@@ -8,16 +8,16 @@ public class problem1 {
     public int maxSubarraySum(int[] arr, int k) {
         // Code here
         int low=0;
-        int high=k-1;
+        int high=k-1;//k-1 because if we take k then it will be counted one more
         int sum = 0;
         for(int i = low;i<=high;i++){
             sum=sum+arr[i]; //intial sum calcullating
         }
-        int crtSum =0 ;
+        int crtSum =0 ;//current index element sum
         while(high<arr.length){//base condition to run the loop
             crtSum = Math.max(crtSum,sum); //keep track of the max sum
-            low++;// 0 -> 1
-            high++;//1 -> 2
+            low++;// 0 -> 1 , 1->2 ...
+            high++;//1 -> 2 ,2->3 ...
 
             if(high == arr.length)//cross the array bound
             {
