@@ -4,6 +4,8 @@ Note that you must do this in-place without making a copy of the array.
 */
 //in this question instead of pushing all the zeros to right push all the non zero to the left
 //then automatically the 0 will be sent to the right
+
+package two_pointer;
 public class problem9 {
         public void moveZeroes(int[] nums) {
             int i= 0;

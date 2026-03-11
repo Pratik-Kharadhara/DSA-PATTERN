@@ -5,7 +5,7 @@
 
 
 //so here we are dyanmically sqr the element then checking and putting to the array
-
+package two_pointer;
 public class problem3 {
     public int[] sortedSquares(int[] nums) {
         int i=0;

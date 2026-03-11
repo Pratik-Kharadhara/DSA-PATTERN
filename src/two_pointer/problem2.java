@@ -9,7 +9,7 @@ The first k elements of nums should contain the unique numbers in sorted order. 
 //this is also under two pointer method where we are using two poitner one i another one is j
 //where j is 1 box ahead of i so its checks with i weather its same or not if not it replaces the jth element
 //with i+1th element
-
+package two_pointer;
 public class problem2 {
         public int removeDuplicates(int[] nums) {
             int i,j;

@@ -8,6 +8,8 @@
 // added by one as an integer array [index1, index2] of length 2.
 
 // we are doing this on two pointer pattern
+
+package two_pointer;
 class problem1 {
     public int[] twoSum(int[] numbers, int target) {
         int i,j ;

@@ -3,6 +3,7 @@
 //
 //Notice that the solution set must not contain duplicate triplets.
 
+package two_pointer;
 import java.util.Arrays;
 public class problem4 {
 

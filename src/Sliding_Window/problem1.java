@@ -11,7 +11,7 @@ public class problem1 {
         int high=k-1;//k-1 because if we take k then it will be counted one more
         int sum = 0;
         for(int i = low;i<=high;i++){
-            sum=sum+arr[i]; //intial sum calcullating
+            sum=sum+arr[i]; //initial sum calculation
         }
         int crtSum =0 ;//current index element sum
         while(high<arr.length){//base condition to run the loop

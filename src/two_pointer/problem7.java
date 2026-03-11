@@ -5,7 +5,7 @@ We will use the integers 0, 1, and 2 to represent the color red, white, and blue
 You must solve this problem without using the library's sort function.
 
 */
-
+package two_pointer;
 public class problem7 {
     //this is a swapping function
     private static void swap(int[] nums,int a,int b){
