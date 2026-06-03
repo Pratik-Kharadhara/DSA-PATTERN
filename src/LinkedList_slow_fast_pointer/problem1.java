@@ -9,17 +9,17 @@ tail's next pointer is connected to. Note that pos is not passed as a parameter.
 package LinkedList_slow_fast_pointer;
 
 public class problem1 {
-    /**
-     * Definition for singly-linked list.
-     * class ListNode {
-     *     int val;
-     *     ListNode next;
-     *     ListNode(int x) {
-     *         val = x;
-     *         next = null;
-     *     }
-     * }
-     */
+
+//      Definition for singly-linked list.
+      class ListNode {
+         int val;
+          ListNode next;
+          ListNode(int x) {
+              val = x;
+              next = null;
+          }
+      }
+
         public boolean hasCycle(ListNode head) {
             ListNode slow = head;
             //slow and fast both are starting from head
