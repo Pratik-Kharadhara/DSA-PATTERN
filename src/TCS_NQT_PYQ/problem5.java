@@ -13,7 +13,29 @@ public class problem5 {
             int risk=sc.nextInt();
             container[i]=risk;
         }
-        Arrays.sort(container);
+        //Arrays.sort(container);
+        //approach using dutch national flag
+        int low=0;
+        int mid=0;
+        int high = container.length-1;
+        while(mid<high){
+            if(container[mid]==0){
+                int temp = container[low] ;
+                container[low] = container[mid];
+                container[mid]=temp;
+                low++;
+                mid++;
+            }
+            if(container[mid]==2){
+                int temp = container[high] ;
+                container[high] = container[mid];
+                container[mid]=temp;
+                high--;
+            }
+            else {
+                mid++;
+            }
+        }
         System.out.println("After sorting: ");
         System.out.println(Arrays.toString(container));
 
